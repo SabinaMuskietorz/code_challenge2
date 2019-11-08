@@ -29,9 +29,11 @@ hr {
 }
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit,
+     minmax(300px, 1fr));
     grid-gap: 1.5rem;
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows:
+    minmax(150px, auto);
 }
 .image {
     opacity: 1;
@@ -67,8 +69,7 @@ hr {
     font-family: Oswald, sans-serif;
 }
 @media (max-width: 500px) {
-    .gallery-item, 
-    body {
+    .gallery-item, body {
         max-width: 30%;
         grid-column: 2;
         font-family: Oswald, sans-serif;
