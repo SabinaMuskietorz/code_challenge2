@@ -23,7 +23,7 @@ hr {
     max-width:100%;
     border-radius:5 px;
     box-shadow: 0 5px 20px rgb (0,0,0,0.5);
-    transition: alt .3s;
+    transition: all .3s;
     overflow: hidden;
     position: relative;
 }
