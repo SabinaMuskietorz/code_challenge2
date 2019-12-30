@@ -1,6 +1,7 @@
 :root {
     font-size: 75.5%;
     font-family: Montserrat, sans-serif;
+    background-color:#ffaf49;
 }
 
 h1 {
@@ -82,8 +83,5 @@ hr {
     }
     div.text {
         font-size: 2.5em;
-    }
-    .tlo {
-        background: fixed;
     }
 }
